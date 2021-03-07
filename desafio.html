@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+  <body>
+    <nav class="barra-navegacao">
+      <img
+        class="barra-navegacao__logotipo"
+        src="img/logotipo-reprograma.png">
+    </nav><br>
+    <section>
+      <p>Saiba o quanto cobrar pelo seu trabalho! Utilize nossa calculadora online:</p>
+    <div class="value">
+    <label for="valor-hora">Valor Hora</label>
+    <input type="number" id="valor-hora" placeholder="Qual o valor da sua hora?" onfocus="this.value = ''">
+  </div>
+<div class="project">
+    <label for="horas-projeto">Horas Projeto</label>
+    <input type="number" id="horas-projeto" placeholder="Quanto tempo você vai dedicar ao projeto?" onfocus="this.value = ''">
+  </div>
+<div class="result">
+    <span id="resposta"></span><br>
+    <button onclick="calcular()">Calcular Projeto</button>
+  </div>
+    <p><a href="index.html">Voltar</a></p> 
+  </section>
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
